@@ -1,4 +1,8 @@
 ###### This is the readme for Udacity React Course,
+
+##This project aims to create a book library that has 3 shelves, and the user can move books between shelves, and also can search for books and add them 
+to the library
+
 To install the application, insure you have npm installed, 
 
 Navigate to project folder
