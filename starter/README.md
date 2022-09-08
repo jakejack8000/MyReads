@@ -31,7 +31,4 @@ search query will be saved, so you don't have to type it again, so you are able 
 7- If network connection issues occur, and the App can't reach the backend server(e.g. when moving a book), an alert is
 shown and changes that couldn't be reflected on the backend are reverted.
 
-I know I haven't done a lot of code in the 'React' way, but I'm still learning my way through react and javascript, and
-your feedback would be really appreciated, and it will help me become a better developer.
-
 ###### Thank you
