@@ -1,5 +1,6 @@
 import BookShelfChanger from './BookShelfChanger.js'
 import {Link} from "react-router-dom";
+import React from 'react'
 
 const Book = ({book, updateBookShelf, setDraggedBook}) => {
     if (!Object.keys(book).includes('imageLinks')) {

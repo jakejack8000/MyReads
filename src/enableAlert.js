@@ -1,3 +1,4 @@
+import React from 'react'
 const EnableAlert = ({enableAlert,setEnableAlert}) => {
     return <button className='enable-alert-button' onClick={()=> {setEnableAlert(!enableAlert)}}>
         {enableAlert ? 'Disable Alert after move':'Enable Alert after move'}

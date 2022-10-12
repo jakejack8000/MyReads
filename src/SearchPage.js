@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import {Link,useParams} from 'react-router-dom'
 import Shelf from './shelf'
 import {search} from "./BooksAPI";
+import React from 'react'
 
 const SearchPage = ({updateBookShelf,myBooks,searchParam,setSearchParam}) => {
     const [searchBooks, setSearchBooks] = useState([])

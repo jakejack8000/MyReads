@@ -1,4 +1,5 @@
 import Book from './book'
+import React from 'react'
 
 const Shelf = ({title, books, updateBookShelf, draggedBook, setDraggedBook, shelfId}) => {
     return <div className='bookshelf' onDrop={(e) => {

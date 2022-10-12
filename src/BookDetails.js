@@ -2,6 +2,7 @@ import {useParams, useNavigate} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import {get} from './BooksAPI'
 import BookShelfChanger from "./BookShelfChanger";
+import React from 'react'
 
 const BookDetails = ({updateBookShelf}) => {
     const navigate = useNavigate()
